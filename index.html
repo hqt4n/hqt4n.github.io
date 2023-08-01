@@ -3,9 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV Hernan Quintán</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
+
+
 <body>
-    <p>Hola :)</p>
+    <img id="fondo" src="https://images.pexels.com/photos/9176032/pexels-photo-9176032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+
+    <div class="contenido">
+    <table class="cabecera">
+        <tr>
+            <td>
+                <h1 id="nombre" >Hernán Quintán</h1>
+
+                <p1>Me han descrito como un muy buen <a class="destacar">comunicador</a> con
+                    gran capacidad de <a class="destacar">resolución de problemas</a>. Me considero
+                    una persona muy <a class="destacar">flexible</a> y de <a class="destacar">trato fácil</a>, acostumbrado a
+                    formar parte de proyectos en diversos grupos y
+                    condiciones.
+                </p1> 
+            </td>
+
+            <td>
+                <img src="pfp.png" alt="foto de perfil" id="pfp">
+            </td>
+            
+        </tr>
+        
+    </table>
+
+
+    <ul class = "indice">
+        <li>
+            <a href="#">Experiencia profesional</a>
+        </li>
+        <li>
+            <a href="#">Habilidades y conocimientos</a>
+        </li>
+        <li>
+            <a href="#">Educación</a>
+        </li>
+        <li>
+            <a href="#">Perfíles sociales</a>
+        </li>
+        <li>
+            <a href="#">Contactar</a>
+        </li>
+    </ul>
+
+    <h2>Experiencia profesional</h2>
+
+    <table>
+        <tr class="categoria">
+            <th>Empresa/Organización</th>
+            <th>Cargo</th>
+            <th>Localización</th>
+            <th>Desde-hasta</th>
+        </tr>
+
+        <tr>
+            <td>Synapsis</td>
+            <td>Atención al cliente</td>
+            <td>Rivera, Uruguay</td>
+            <td>Julio 2022 - Octubre 2022</td>
+        </tr>
+
+        <tr>
+            <td>Synapsis</td>
+            <td>Disputas y mediaciones</td>
+            <td>Rivera, Uruguay</td>
+        <td>Octubre 2022 - Enero 2023</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Habilidades y conocimientos</h2>
+    <ul>
+        <li>
+            <strong>Programación:</strong> C, C#, C++, Python, JavaScript.
+        </li>
+        <li>
+            <strong>Microcontroladores:</strong> Raspberry Pi, Adruino.
+        </li>
+        <li>
+            <strong>CAD</strong> 
+        </li>
+        <li>
+            <strong>CNC</strong> 
+        </li>
+        <li>
+            <strong>Programación PLCs:</strong> Ladder, FBD, ST
+        </li>
+    </ul>
+
+    <hr>
+
+    <h2>Educación</h2>
+    <table>
+        <tr class="categoria">
+            <th>Título</th>
+            <th>Entidad</th>
+            <th>Desde-hasta</th>
+        </tr>
+
+        <tr>
+            <td>Ingeniería en Control y Automática</td>
+            <td>UTEC ITR Norte</td>
+            <td>2020 - Actualidad</td>
+        </tr>
+
+        <tr>
+            <td>Desarrollo Web</td>
+            <td>Plan Ceibal JaP</td>
+            <td>2023 - Actualidad</td>
+        </tr>
+        <tr>
+            <td>Cambridge FCE</td>
+            <td>Christopher Marlow English Courses</td>
+            <td>2010 - 2019</td>
+        </tr>
+    </table>
+
+
+    <br>
+
+    <table class="cabecera">
+        <tr>
+            <td>
+                <h2>Perfiles Sociales</h2>
+
+    <ul class="indice">
+        <li>
+            <a href="#">HernanQuintan</a>
+        </li>
+        <li>
+            <a href="#">Github</a>
+        </li>
+        <li>
+            <a href="#">Twitter</a>
+        </li>
+        <li>
+            <a href="#">Linkedin</a>
+        </li>
+    </ul>
+            </td>
+
+            <td style="float: right;">
+                <form>
+                    <h2>Contacto</h2>
+
+                    <p>Para: <input type="text" name="Para"></p>
+                
+                    <label for="tema">Tematica: </label>
+                    <select name="tema" id="tema" required>
+                        <option value="nule" disabled>--Elige un tema--</option>
+                        <option value="oferta">Oferta</option>
+                        <option value="consulta">Consulta</option>
+                        <option value="otra">Otra</option>
+                    </select>
+                
+                    <p>Asunto: <input type="text" name="asunto"></p>
+                
+                    <p>Cuerpo: <textarea name="Cuerpo" rows="3"></textarea></p>
+                    <input type="submit" value="Enviar" style="float: right;">
+                    
+                    </form>
+            </td>
+            
+        </tr>
+        
+    </table>
+
+</div>
 </body>
 </html>

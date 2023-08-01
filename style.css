@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(250, 250, 245);
+}
+
+.contenido{
+    position: absolute;
+}
+
+#fondo{
+    position:absolute;
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+}
+
+.cabecera{
+    background-color: rgb(241, 241, 236);
+    width: 100%;
+    margin-left: 0%;
+}
+
+.cabecera td{
+    padding: 2.5%;
+    vertical-align:top;
+}
+
+#nombre{
+    text-align: center;
+}
+
+#pfp{
+    float: right;
+    width: 35%;
+    margin-right: 10%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.destacar{
+    background-color: antiquewhite;
+}
+
+.indice a{
+    color: black;
+}
+
+table{
+    border: 1px solid;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.categoria{
+    background-color: antiquewhite;
+}
+
